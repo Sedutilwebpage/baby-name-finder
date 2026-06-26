@@ -13,8 +13,6 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
-import type { Metadata } from 'next';
-
 export const metadata: Metadata = {
   metadataBase: new URL('https://babeznamez.com'),
 
@@ -55,6 +53,7 @@ export const metadata: Metadata = {
     siteName: 'BabezNamez',
     locale: 'en_US',
     type: 'website',
+	images: ['/social-preview.jpg'],
   },
 
   twitter: {
@@ -62,6 +61,7 @@ export const metadata: Metadata = {
     title: 'Baby Name Finder | BabezNamez',
     description:
       'Generate beautiful baby names with AI and discover meanings and origins.',
+	images: ['/social-preview.jpg'],
   },
 };
 
