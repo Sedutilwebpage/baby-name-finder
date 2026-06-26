@@ -745,6 +745,91 @@ export default function BabyNameFinder() {
           </div>
         </div>
 
+        <section className="mt-12 rounded-3xl bg-white/85 p-8 shadow-xl">
+          <h2 className="mb-4 text-3xl font-bold text-slate-900">
+            Why Choose BabezNamez?
+          </h2>
+
+          <p className="mb-6 text-slate-600">
+            Finding the perfect baby name is one of the most exciting parts of preparing
+            for a new arrival. BabezNamez combines the creativity of artificial
+            intelligence with meaningful name information to help parents discover names
+            they&apos;ll love.
+          </p>
+
+          <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+            <div>
+              <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                AI-Powered Name Discovery
+              </h3>
+              <p className="text-slate-600">
+                Generate thoughtful baby name suggestions based on gender, style,
+                origin, popularity, and name length.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                Explore Meaning and Origin
+              </h3>
+              <p className="text-slate-600">
+                Each suggested name includes helpful meaning and origin details so you
+                can choose with confidence.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                Discover Similar Names
+              </h3>
+              <p className="text-slate-600">
+                Love a name but want more ideas? Generate similar names instantly and
+                keep exploring.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                Save Your Favorites
+              </h3>
+              <p className="text-slate-600">
+                Build a personalized shortlist of favorite names and revisit them later
+                on the same device.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                Print or Save Your List
+              </h3>
+              <p className="text-slate-600">
+                Create a printable PDF of your favorite names and search preferences to
+                share or keep.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="mb-2 text-xl font-semibold text-slate-900">
+                Designed for Every Family
+              </h3>
+              <p className="text-slate-600">
+                Explore classic, modern, unique, elegant, strong, and nature-inspired
+                names in a welcoming experience.
+              </p>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+
+
+
+
         <footer className="mt-12 border-t border-stone-200 pt-6 text-center text-sm text-slate-500">
           <div className="flex flex-wrap justify-center gap-4">
             <a href="/privacy" className="hover:text-emerald-700">
