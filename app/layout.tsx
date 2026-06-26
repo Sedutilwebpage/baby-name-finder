@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    'Discover beautiful baby names with AI. Search by style, origin, popularity, and meaning to find the perfect name for your baby.',
+    'Discover beautiful baby names with the power of AI. Search by meaning, origin, style, popularity, and gender to find the perfect name for your baby, then explore similar names, save your favorites, and print your personalized list.',
 
   keywords: [
     'baby names',
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Baby Name Finder | BabezNamez',
     description:
-      'Generate beautiful baby names with AI and discover meanings, origins, and inspiration.',
+      'Discover beautiful baby names with the power of AI. Search by meaning, origin, style, popularity, and gender to find the perfect name for your baby, then explore similar names, save your favorites, and print your personalized list.',
     url: 'https://babeznamez.com',
     siteName: 'BabezNamez',
     locale: 'en_US',
@@ -60,7 +60,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Baby Name Finder | BabezNamez',
     description:
-      'Generate beautiful baby names with AI and discover meanings and origins.',
+      'Discover beautiful baby names with the power of AI. Search by meaning, origin, style, popularity, and gender to find the perfect name for your baby, then explore similar names, save your favorites, and print your personalized list.',
 	images: ['/social-preview.jpg'],
   },
 };
