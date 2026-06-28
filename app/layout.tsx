@@ -40,6 +40,10 @@ export const metadata: Metadata = {
   authors: [{ name: 'BabezNamez' }],
   creator: 'BabezNamez',
   publisher: 'BabezNamez',
+  
+  other: {
+  "google-adsense-account": "ca-pub-9315314372257867",
+},
 
   alternates: {
     canonical: 'https://babeznamez.com',
