@@ -74,11 +74,13 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         {children}
-		<script 
-		  async 
-		  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9315314372257867"
-          crossorigin="anonymous">
-		</script>
+		
+        <Script
+          async
+          strategy="afterInteractive"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9315314372257867"
+          crossOrigin="anonymous"
+        />
 		
       </body>
     </html>
