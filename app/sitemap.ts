@@ -1,7 +1,7 @@
 import type { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://babeznamez.com';
+  const baseUrl = 'https://www.babeznamez.com';
 
   return [
     {
@@ -28,5 +28,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: 'yearly',
       priority: 0.3,
     },
+	{
+		url: '${baseUrl}/about',
+		lastModified: new Date(),
+		changeFrequency: 'yearly',
+		priority: 0.5,
+	},
   ];
 }
