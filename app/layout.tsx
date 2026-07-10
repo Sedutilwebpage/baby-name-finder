@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://babeznamez.com'),
+  metadataBase: new URL('https://www.babeznamez.com'),
 
   title: {
     default: 'Baby Name Finder | AI Baby Names | BabezNamez',
@@ -46,14 +46,14 @@ export const metadata: Metadata = {
 },
 
   alternates: {
-    canonical: 'https://babeznamez.com',
+    canonical: 'https://www.babeznamez.com',
   },
 
   openGraph: {
     title: 'Baby Name Finder | BabezNamez',
     description:
       'Discover beautiful baby names with the power of AI. Search by meaning, origin, style, popularity, and gender to find the perfect name for your baby, then explore similar names, save your favorites, and print your personalized list.',
-    url: 'https://babeznamez.com',
+    url: 'https://www.babeznamez.com',
     siteName: 'BabezNamez',
     locale: 'en_US',
     type: 'website',
